@@ -1,0 +1,6 @@
+Tema: 1
+Nota: 4.0
+Predata in saptamana: 9
+Deadline: 7
+Feedback: esti ok
+
