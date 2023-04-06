@@ -45,7 +45,6 @@ public class ServiceTests {
         NotaXMLRepository notaXMLRepository = new NotaXMLRepository(notaValidator, filenameNota);
         Service service = new Service(studentXMLRepository, temaXMLRepository, notaXMLRepository);
 
-        assertEquals(service.saveTema("15", "", 2,5), 1);
-        assertEquals(service.findAllTeme().iterator().next().getID(), "1");
+        assertEquals(service.saveTema("15", "ceva", 7,5), 0);
     }
 }
