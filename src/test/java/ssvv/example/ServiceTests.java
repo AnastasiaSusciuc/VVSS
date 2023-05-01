@@ -19,7 +19,7 @@ import static org.junit.Assert.assertEquals;
 public class ServiceTests {
 
     @Test
-    public void TestCasePath1() {
+    public void TestCase1() {
         StudentValidator studentValidator = new StudentValidator();
         TemaValidator temaValidator = new TemaValidator();
         String filenameStudent = "studenti.xml";
@@ -41,7 +41,7 @@ public class ServiceTests {
     }
 
     @Test
-    public void TestCasePath2() {
+    public void TestCase2() {
         StudentValidator studentValidator = new StudentValidator();
         TemaValidator temaValidator = new TemaValidator();
         String filenameStudent = "studenti.xml";
@@ -63,7 +63,7 @@ public class ServiceTests {
     }
 
     @Test
-    public void TestCasePath3() {
+    public void TestCase3() {
         StudentValidator studentValidator = new StudentValidator();
         TemaValidator temaValidator = new TemaValidator();
         String filenameStudent = "studenti.xml";
@@ -85,7 +85,7 @@ public class ServiceTests {
     }
 
     @Test
-    public void TestCasePath4() {
+    public void TestCase4() {
         StudentValidator studentValidator = new StudentValidator();
         TemaValidator temaValidator = new TemaValidator();
         String filenameStudent = "studenti.xml";
@@ -107,7 +107,7 @@ public class ServiceTests {
     }
 
     @Test
-    public void TestCasePath5() {
+    public void TestCase5() {
         StudentValidator studentValidator = new StudentValidator();
         TemaValidator temaValidator = new TemaValidator();
         String filenameStudent = "studenti.xml";
@@ -130,7 +130,7 @@ public class ServiceTests {
     }
 
     @Test
-    public void TestCasePath6() {
+    public void TestCase6() {
         StudentValidator studentValidator = new StudentValidator();
         TemaValidator temaValidator = new TemaValidator();
         String filenameStudent = "studenti.xml";
