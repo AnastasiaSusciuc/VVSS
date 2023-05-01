@@ -2,6 +2,7 @@ package ssvv.example.service;
 
 import ssvv.example.domain.*;
 import ssvv.example.repository.*;
+import ssvv.example.validation.ValidationException;
 
 import java.time.LocalDate;
 import java.time.temporal.WeekFields;
@@ -35,14 +36,10 @@ public class Service {
         return 0;
     }
 
-    public int saveTema(String id, String descriere, int deadline, int startline) {
+    public int saveTema(String id, String descriere, int deadline, int startline) throws ValidationException {
         Tema tema = new Tema(id, descriere, deadline, startline);
-        Tema result = temaXmlRepo.save(tema);
-
-        if (result == null) {
-            return 1;
-        }
-        return 0;
+        temaXmlRepo.save(tema);
+        return 1;
     }
 
     public int saveNota(String idStudent, String idTema, double valNota, int predata, String feedback) {
